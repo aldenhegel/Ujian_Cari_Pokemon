@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+<body>
+    <h3>
+        {{data['forms'][0]['name']}}<br>
+        <img src="https://pokeres.bastionbot.org/images/pokemon/{{data['id']}}.png">
+        Tinggi: {{data['height']}}<br>
+        id: {{data['id']}}<br>
+        berat: {{data['weight']}}
+    </h3>
+    <a href="http://127.0.0.1:5000/">Back to home</a>
+</body>
+</html>
